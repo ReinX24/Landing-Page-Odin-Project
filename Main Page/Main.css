@@ -1,8 +1,14 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
 .page {
 
     display: flex;
     flex-direction: column;
-    
+   ;
 
 }
 
@@ -94,7 +100,7 @@ img {
 
 .signup {
 
-    font-size: 24px;
+font-size: 24px;
 color: white;
 background-color: #3882f6;
 border-color: #3882f6;
