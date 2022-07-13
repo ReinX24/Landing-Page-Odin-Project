@@ -36,8 +36,8 @@ html, body {
 
     font-size: 18px;
     color: #e5e7eb;
-    gap: 16px;
-
+    gap: 64px;
+  
 }
 
 .hdr2 {
@@ -268,5 +268,13 @@ padding: 64px 128px;
     justify-content: center;
     color: #e5e7eb;
     font-size: 18px;
+
+}
+
+a {
+
+text-decoration: none;
+
+color: #e5e7eb;
 
 }
