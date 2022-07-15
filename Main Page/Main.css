@@ -77,6 +77,8 @@ html, body {
     margin-top: 8px;
     font-size: 18px;
     color: #e5e7eb;
+    text-align: justify;
+    line-height: 32px;
 
 }
 
@@ -97,7 +99,7 @@ img {
 
     width: 1200px;
     height: auto;
-    min-width: 500px;
+    min-width: 800px;
     max-width: 1200px;
 
     margin-right: 64px;

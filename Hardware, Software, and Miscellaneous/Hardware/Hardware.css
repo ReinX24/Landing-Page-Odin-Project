@@ -1,0 +1,75 @@
+html,
+body {
+
+margin: 0;
+padding: 0;
+
+}
+
+.page {
+display: flex;
+flex-direction: column;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header {
+
+display: flex;
+background-color: #1f2937;
+padding: 64px 128px;
+
+align-items: center;
+justify-content: space-between;
+
+color: white;
+
+}
+
+
+
+.back {
+
+font-size: 24px;
+
+background-color: #3882f6;
+border-color: #3882f6;
+border-style:solid;
+border-radius: 12px;
+padding: 16px 32px;
+
+}
+
+.hardwaretitle {
+
+display: flex;
+
+
+}
+
+.httext {
+
+
+font-size: 36px;
+
+}
+
+a {
+
+text-decoration: none;
+color: white;
+
+}
+
+.hardwareinfo {
+
+    display: flex;
+
+
+}
+
+.hitext {
+
+    text-align: justify;
+
+}
