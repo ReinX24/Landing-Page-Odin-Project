@@ -64,12 +64,19 @@ color: white;
 .hardwareinfo {
 
     display: flex;
+    text-align: center;
+    padding: 24px 128px;
+    background-color: #1f2937;
+    line-height: 64px;
+    
 
 
 }
 
 .hitext {
 
-    text-align: justify;
+    font-size: 24px;
+color: white;
+
 
 }
