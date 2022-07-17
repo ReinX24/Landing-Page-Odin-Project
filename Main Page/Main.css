@@ -47,7 +47,8 @@ html, body {
     background-color: #1f2937;
     padding: 64px;
     flex-direction: row;
-    align-items: center;
+    
+    
         
 
 }
@@ -57,9 +58,10 @@ html, body {
 
     display: flex;
     flex-direction: column;
+    
    
-    margin-right: 128px;
     padding: 16px 64px;
+    width: 500px;
    
 
 }
@@ -74,11 +76,10 @@ html, body {
 
 .small {
 
-    margin-top: 8px;
-    font-size: 18px;
+    font-size: 24px;
     color: #e5e7eb;
     text-align: justify;
-    line-height: 32px;
+    line-height: 64px;
 
 }
 
@@ -92,15 +93,14 @@ img {
 .rightphoto {
 
     display: flex;
-    align-self: flex-start;
     flex-direction: column;
 
     margin-left: auto;
 
     width: 1200px;
     height: auto;
-    min-width: 800px;
-    max-width: 1200px;
+    min-width: 600px;
+    max-width: 800px;
 
     margin-right: 64px;
 
@@ -178,8 +178,9 @@ align-items: center;
 .quotetext {
 
     margin-top: 128px;
+    
     display: flex;
-    padding: 16px 256px;
+    
     justify-content: center;
     text-align: justify;
     font-size: 36px;
@@ -192,24 +193,26 @@ align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 16px 256px;
-    margin-bottom: 128px;
+    padding-right: 256px;
     color:#1f2937;
     font-weight: 900;
     font-size: 24px;
+
+    margin-bottom: 128px;
 
 }
 
 .quote {
 
-
+    
     background-color: #e5e7eb;
+    line-height: 64px;
 
 }
 
 .footer {
 
-    padding: 64px 128px
+    padding: 64px 128px;
     
 
 }

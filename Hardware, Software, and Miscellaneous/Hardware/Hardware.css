@@ -17,12 +17,12 @@ font-family: 'Courier New', Courier, monospace;
 
 display: flex;
 background-color: #1f2937;
-padding: 64px 128px;
+padding: 32px 64px;
 
 align-items: center;
 justify-content: space-between;
 
-color: white;
+
 
 }
 
@@ -40,9 +40,17 @@ padding: 16px 32px;
 
 }
 
+.backbutton {
+
+padding-right: 64px;
+    
+}
+
 .hardwaretitle {
 
 display: flex;
+color: white;
+padding: 16px 0px;
 
 
 }
@@ -50,7 +58,8 @@ display: flex;
 .httext {
 
 
-font-size: 36px;
+font-size: 48px;
+font-weight: 900;
 
 }
 
@@ -64,9 +73,10 @@ color: white;
 .hardwareinfo {
 
     display: flex;
-    text-align: center;
-    padding: 16px 128px;
-    background-color: #1f2937;
+    flex-direction: column;
+    text-align: justify;
+    padding: 64px 128px;
+    
     line-height: 64px;
     
 
@@ -76,7 +86,26 @@ color: white;
 .hitext {
 
     font-size: 24px;
-color: white;
+    color: white;
+    width: 500px;
+    margin: 16px 0px;
 
+}
+
+.hirow {
+
+display: flex;
+background-color: #1f2937;
+align-items: center;
+
+}
+
+.hardwareheaderphoto {
+
+padding-right: 128px;
+margin-left: auto;
+
+max-width: 800px;
+min-width: 600px;
 
 }
