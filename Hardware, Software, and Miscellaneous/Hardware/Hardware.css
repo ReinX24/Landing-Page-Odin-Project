@@ -116,7 +116,14 @@ min-width: 600px;
     display: flex;
     flex: 1;
     height: 500px;
+   
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 24px;
+    text-align: justify;
+    background-color: #e5e7eb;
 
+    line-height: 60px;
 }
 
 .copyrightfooter {
@@ -126,11 +133,11 @@ min-width: 600px;
     
     }
     
-    .crtext {
+.crtext {
     
-        display: flex;
-        justify-content: center;
-        color: #e5e7eb;
-        font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
     
     }
