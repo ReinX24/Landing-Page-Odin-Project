@@ -118,3 +118,19 @@ min-width: 600px;
     height: 500px;
 
 }
+
+.copyrightfooter {
+
+    background-color: #1f2937;
+    padding: 64px 128px;
+    
+    }
+    
+    .crtext {
+    
+        display: flex;
+        justify-content: center;
+        color: #e5e7eb;
+        font-size: 18px;
+    
+    }
