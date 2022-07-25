@@ -46,7 +46,7 @@ padding-right: 64px;
     
 }
 
-.hardwaretitle {
+.misctitle {
 
 display: flex;
 color: white;
@@ -55,7 +55,7 @@ padding: 16px 0px;
 
 }
 
-.httext {
+.mttext {
 
 
 font-size: 48px;
@@ -70,7 +70,7 @@ color: white;
 
 }
 
-.hardwareinfo {
+.miscinfo {
 
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ color: white;
 
 }
 
-.hitext {
+.mitext {
 
     font-size: 24px;
     color: white;
@@ -92,7 +92,7 @@ color: white;
 
 }
 
-.hirow {
+.mirow {
 
 display: flex;
 background-color: #1f2937;
@@ -100,7 +100,7 @@ align-items: center;
 
 }
 
-.hardwareheaderphoto {
+.mischeaderphoto {
 
 padding-right: 128px;
 margin-left: auto;
@@ -110,12 +110,20 @@ min-width: 600px;
 
 }
 
-.hardwareitems div{
+.miscitems div{
 
     border: 1px solid red;
     display: flex;
     flex: 1;
     height: 500px;
+
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 24px;
+    text-align: justify;
+    background-color: #e5e7eb;
+
+    line-height: 64px;
 
 }
 
