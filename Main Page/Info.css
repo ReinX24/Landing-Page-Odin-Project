@@ -82,6 +82,24 @@ text-decoration: none;
 
 }
 
+.historymain div {
+
+
+    display: flex;
+    flex: 1;
+    height: 1200px;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 64px 256px;
+
+    line-height: 128px;
+    background-color: #e5e7eb;
+    font-size: 32px;
+
+}
+
 
 .copyrightfooter {
 
