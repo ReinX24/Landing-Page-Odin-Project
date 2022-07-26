@@ -112,7 +112,8 @@ min-width: 600px;
 
 .miscitems div{
 
-    border: 1px solid red;
+    /*border used as a guide for flexbox*/
+    /*border: 1px solid red;*/
     display: flex;
     flex: 1;
     height: 500px;
