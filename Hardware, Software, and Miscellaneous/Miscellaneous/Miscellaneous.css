@@ -31,6 +31,7 @@ justify-content: space-between;
 .back {
 
 font-size: 24px;
+color: white;
 
 background-color: #3882f6;
 border-color: #3882f6;
@@ -66,7 +67,6 @@ font-weight: 900;
 a {
 
 text-decoration: none;
-color: white;
 
 }
 
