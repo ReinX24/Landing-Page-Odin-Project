@@ -1,0 +1,145 @@
+html,
+body {
+
+margin: 0;
+padding: 0;
+
+}
+
+.page {
+display: flex;
+flex-direction: column;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header {
+
+display: flex;
+background-color: #1f2937;
+padding: 32px 64px;
+
+align-items: center;
+justify-content: space-between;
+
+
+
+}
+
+
+
+.back {
+
+font-size: 24px;
+color: white;
+
+background-color: #3882f6;
+border-color: #3882f6;
+border-style:solid;
+border-radius: 12px;
+padding: 16px 32px;
+
+}
+
+.backbutton {
+
+padding-right: 64px;
+    
+}
+
+.ownertitle {
+
+display: flex;
+color: white;
+padding: 16px 0px;
+
+
+}
+
+.ottext {
+
+
+font-size: 48px;
+font-weight: 900;
+
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+.ownerinfo {
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 64px 128px;
+    
+    line-height: 64px;
+    
+
+
+}
+
+.oitext {
+
+    font-size: 24px;
+    color: white;
+    width: 500px;
+    margin: 16px 0px;
+
+}
+
+.oirow {
+
+display: flex;
+background-color: #1f2937;
+align-items: center;
+
+}
+
+.ownerheaderphoto {
+
+padding-right: 128px;
+margin-left: auto;
+
+
+min-width: 600px;
+
+}
+
+.softwareitems div{
+
+    /*border used as a guide for flexbox*/
+    /*border: 1px solid red;*/
+    display: flex;
+    flex: 1;
+    height: 700px;
+
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 24px;
+    text-align: justify;
+    background-color: #e5e7eb;
+
+    line-height: 64px;
+
+}
+
+.copyrightfooter {
+
+background-color: #1f2937;
+padding: 64px 128px;
+
+}
+
+.crtext {
+
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
