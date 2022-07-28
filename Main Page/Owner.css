@@ -110,7 +110,7 @@ min-width: 600px;
 
 }
 
-.softwareitems div{
+.owneritems div{
 
     /*border used as a guide for flexbox*/
     /*border: 1px solid red;*/
@@ -125,6 +125,13 @@ min-width: 600px;
     background-color: #e5e7eb;
 
     line-height: 64px;
+
+}
+
+.item1photo {
+
+display: flex;
+justify-content: center;
 
 }
 
